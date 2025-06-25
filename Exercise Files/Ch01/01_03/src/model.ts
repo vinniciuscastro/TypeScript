@@ -20,6 +20,7 @@ function saveInventoryItem(item) {
 
 let inventoryItem = getInventoryItem(trackingNumber);
 
+
 inventoryItem.createDate = new Date();
 
 saveInventoryItem(inventoryItem);
